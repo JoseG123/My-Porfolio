@@ -1,3 +1,14 @@
 .example{
 	color:red;
 }
+
+
+.example p,ul{
+		font-size: 25px;
+}
+
+.example img{
+
+		height:25%;
+		width:25%;
+}
