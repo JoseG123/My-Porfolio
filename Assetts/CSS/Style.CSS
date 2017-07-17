@@ -1,14 +1,41 @@
 .example{
 	color:red;
+	border:2px solid;
+	width:50%;
+	margin:0 auto;
+	margin-bottom:10px;
+	padding:25px;
+	display:flex;
+	flex-direction: row;
 }
 
-
-.example p,ul{
+.example p{
 		font-size: 25px;
 }
 
 .example img{
-
 		height:25%;
 		width:25%;
+}
+
+.nav{
+	width:50%;
+	border:2px solid;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.flex{
+	height:50%;
+	width:50%;
+	border:2px solid;
+	display:flex;
+	flex-direction:row;
+}
+
+.flexe{
+	width:30%;
+	height:30%;
+	border:2px solid;
 }
